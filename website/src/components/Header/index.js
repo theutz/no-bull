@@ -5,7 +5,10 @@ const Header = ({ title, description }) => (
   <div>
     <div>
       <h1>
-        <Link to="/">{title}</Link>
+        <Link to="/">
+          <i className="fas fa-bullseye" />
+          {title}
+        </Link>
       </h1>
     </div>
   </div>
