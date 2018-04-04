@@ -16,6 +16,7 @@ const TemplateWrapper = ({ children, data }) => {
         meta={[
           { name: 'description', content: description },
           { name: 'keywords', content: 'sample, something' },
+          { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         ]}
       >
         <script

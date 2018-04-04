@@ -12,7 +12,8 @@
     "Subtitle.js",
     "Column.js",
     "Columns.js",
-    "Container.js"
+    "Container.js",
+    "Tag.js"
   ],
   "license": "MIT",
   "scripts": {

@@ -19,7 +19,8 @@ const Title = styled.h2.attrs({
 })``;
 
 Title.propTypes = {
-  size: PropTypes.oneOf([1, 2, 3, 4, 5, 6])
+  size: PropTypes.oneOf([1, 2, 3, 4, 5, 6]),
+  is: PropTypes.element
 };
 
 export default Title;

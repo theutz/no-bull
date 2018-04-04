@@ -1,7 +1,8 @@
 // Elements
+export Content from "./Content";
 export Title from "./Title";
 export Subtitle from "./Subtitle";
-export Content from "./Content";
+export Tag from "./Tag";
 
 // Layout
 export Container from "./Container";
