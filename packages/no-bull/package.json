@@ -4,7 +4,16 @@
   "description": "React + Styled Components = No Bull",
   "main": "index.js",
   "module": "es/index.js",
-  "files": ["es", "index.js", "Title.js"],
+  "files": [
+    "es",
+    "umd",
+    "index.js",
+    "Title.js",
+    "Subtitle.js",
+    "Column.js",
+    "Columns.js",
+    "Container.js"
+  ],
   "license": "MIT",
   "scripts": {
     "build": "node ./tools/build.js",

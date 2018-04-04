@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 //
 import 'styles/index.scss'
 import Header from 'components/Header'
+import { Container } from 'no-bull'
 
 const TemplateWrapper = ({ children, data }) => {
   const { title, description } = !!data && data.site.meta
@@ -25,7 +26,7 @@ const TemplateWrapper = ({ children, data }) => {
         />
       </Helmet>
       <Header title={title} />
-      <div>{children()}</div>
+      <Container>{children()}</Container>
     </div>
   )
 }
