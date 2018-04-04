@@ -7,6 +7,24 @@
       "type": "npm",
       "script": "start",
       "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "lint",
+      "path": "packages/no-bull/",
+      "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "watch",
+      "path": "packages/no-bull/",
+      "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "clean",
+      "path": "packages/no-bull/",
+      "problemMatcher": []
     }
   ]
 }
