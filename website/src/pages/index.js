@@ -1,9 +1,13 @@
 import React from 'react'
 import { Title } from 'no-bull'
 
+const MyTitle = Title.extend`
+  color: red;
+`
+
 const IndexPage = () => (
   <div>
-    <Title>Hi people</Title>
+    <MyTitle>Hi people</MyTitle>
   </div>
 )
 

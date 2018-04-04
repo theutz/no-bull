@@ -7,5 +7,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-resolve-src`,
     `gatsby-plugin-react-next`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-sass`,
   ],
 }

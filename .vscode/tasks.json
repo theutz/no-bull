@@ -25,6 +25,12 @@
       "script": "clean",
       "path": "packages/no-bull/",
       "problemMatcher": []
+    },
+    {
+      "type": "npm",
+      "script": "serve",
+      "path": "website/",
+      "problemMatcher": []
     }
   ]
 }
