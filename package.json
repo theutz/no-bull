@@ -1,12 +1,9 @@
 {
-  "name": "no-bull",
-  "version": "0.0.0",
-  "description": "An implementation of Bulma using Styled-Components",
-  "main": "src/index.js",
-  "repository": "https://github.com/theutz/no-bull.git",
-  "author": "Michael Utz <michael@theutz.com>",
-  "license": "MIT",
-  "private": false,
+  "private": true,
+  "name": "no-bull-packages",
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  },
   "devDependencies": {
     "lerna": "^2.9.1",
     "prettier": "^1.11.1",
