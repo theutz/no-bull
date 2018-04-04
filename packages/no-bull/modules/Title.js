@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 
 const Title = styled.h2.attrs({
-  className: ({ className, size }) =>
+  className: ({ className, size, spaced }) =>
     classNames(
       "title",
       {
@@ -14,6 +14,7 @@ const Title = styled.h2.attrs({
         "is-5": size === 5,
         "is-6": size === 6
       },
+      { "is-spaced": spaced },
       className
     )
 })``;

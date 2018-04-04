@@ -25,10 +25,10 @@ const TitlePage = () => {
             <p>There are two types of heading:</p>
             <ul>
               <li>
-                <code>.title</code>
+                <code>{`<Title/>`}</code>
               </li>
               <li>
-                <code>.subtitle</code>
+                <code>{`<Subtitle/>`}</code>
               </li>
             </ul>
           </Content>
@@ -126,16 +126,16 @@ const TitlePage = () => {
         </Column>
         <Column>
           <div className="block">
-            <Title size={1}>Title 1</Title>
-            <Subtitle size={3}>Subtitle 3</Subtitle>
+            <TitleP size={1}>Title 1</TitleP>
+            <SubtitleP size={3}>Subtitle 3</SubtitleP>
           </div>
           <div className="block">
-            <Title size={2}>Title 2</Title>
-            <Subtitle size={4}>Subtitle 4</Subtitle>
+            <TitleP size={2}>Title 2</TitleP>
+            <SubtitleP size={4}>Subtitle 4</SubtitleP>
           </div>
           <div className="block">
-            <Title size={3}>Title 3</Title>
-            <Subtitle size={5}>Subtitle 5</Subtitle>
+            <TitleP size={3}>Title 3</TitleP>
+            <SubtitleP size={5}>Subtitle 5</SubtitleP>
           </div>
         </Column>
         <Column>
@@ -193,6 +193,13 @@ const TitlePage = () => {
             <Code>
               {`
 <Title size={1} spaced>Title 1</Title>
+<Subtitle size={3}>Subtitle 3</Subtitle>
+
+<Title size={2} spaced>Title 2</Title>
+<Subtitle size={4}>Subtitle 4</Subtitle>
+
+<Title size={3} spaced>Title 3</Title>
+<Subtitle size={5}>Subtitle 5</Subtitle>
 `}
             </Code>
           </Pre>
