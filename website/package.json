@@ -1,17 +1,15 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "name": "no-bull-website",
+  "description": "Bulma + Styled Components = No Bull",
+  "version": "0.0.1",
+  "author": "Michael Utz <michael@theutz.com>",
   "dependencies": {
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.8",
     "react-helmet": "^5.2.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby", "bulma", "styled components"],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
