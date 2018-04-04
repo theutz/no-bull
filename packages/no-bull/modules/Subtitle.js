@@ -2,10 +2,10 @@ import styled from "styled-components";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 
-const Title = styled.h2.attrs({
+const Subtitle = styled.h3.attrs({
   className: ({ className, size, spaced }) =>
     classNames(
-      "title",
+      "subtitle",
       {
         "is-1": size === 1,
         "is-2": size === 2,
@@ -14,14 +14,16 @@ const Title = styled.h2.attrs({
         "is-5": size === 5,
         "is-6": size === 6
       },
-      { "is-spaced": spaced },
+      {
+        "is-spaced": spaced
+      },
       className
     )
 })``;
 
-Title.propTypes = {
+Subtitle.propTypes = {
   size: PropTypes.oneOf([1, 2, 3, 4, 5, 6]),
-  is: PropTypes.element
+  spaced: PropTypes.bool
 };
 
-export default Title;
+export default Subtitle;

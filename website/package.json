@@ -4,23 +4,26 @@
   "version": "0.0.1",
   "author": "Michael Utz <michael@theutz.com>",
   "dependencies": {
+    "bulma": "^0.6.2",
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.8",
+    "gatsby-plugin-react-next": "^1.0.11",
+    "gatsby-plugin-resolve-src": "^1.1.0",
+    "gatsby-plugin-sass": "^1.0.25",
+    "gatsby-plugin-styled-components": "^2.0.11",
     "no-bull": "^0.0.1",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "styled-components": "^3.2.5"
   },
-  "keywords": [
-    "gatsby",
-    "bulma",
-    "styled components"
-  ],
+  "keywords": ["gatsby", "bulma", "styled components"],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "gatsby serve"
   },
   "devDependencies": {
     "prettier": "^1.11.1"
