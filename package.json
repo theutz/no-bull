@@ -1,16 +1,12 @@
 {
   "private": true,
   "name": "no-bull-packages",
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
-  },
   "scripts": {
     "start": "cd website && npm run develop",
     "build": "node ./scripts/build.js",
     "clean": "lerna run clean",
-    "test": "lerna run test --stream"
+    "test": "lerna run test --stream",
+    "precommit": "pretty-quick --staged"
   },
   "devDependencies": {
     "husky": "^0.14.3",
