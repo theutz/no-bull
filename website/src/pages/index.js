@@ -7,7 +7,7 @@ const MyTitle = Title.extend`
 
 const IndexPage = () => (
   <div>
-    <MyTitle>Hi people</MyTitle>
+    <MyTitle size={6}>Hi people</MyTitle>
   </div>
 )
 
